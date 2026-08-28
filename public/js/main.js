@@ -88,6 +88,70 @@
     });
   });
 
+  // Back-to-top floating button (draggable + click to jump)
+  (function () {
+    var btn = document.createElement('button');
+    btn.className = 'to-top-btn';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.setAttribute('title', 'Back to top');
+    btn.innerHTML = '<span class="arr-up">↑</span>';
+    document.body.appendChild(btn);
+
+    var ticking = false;
+    var onScroll = function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.classList.toggle('visible', window.scrollY > 420);
+        ticking = false;
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Click → smooth scroll to top (unless just dragged)
+    var moved = false;
+    btn.addEventListener('click', function () {
+      if (moved) { moved = false; return; }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Drag to reposition (pointer events, works for mouse + touch)
+    var startX = 0, startY = 0, origLeft = 0, origTop = 0, dragging = false;
+    btn.addEventListener('pointerdown', function (e) {
+      dragging = true;
+      moved = false;
+      btn.classList.add('dragging');
+      btn.setPointerCapture(e.pointerId);
+      var r = btn.getBoundingClientRect();
+      startX = e.clientX; startY = e.clientY;
+      origLeft = r.left; origTop = r.top;
+    });
+    btn.addEventListener('pointermove', function (e) {
+      if (!dragging) return;
+      var dx = e.clientX - startX;
+      var dy = e.clientY - startY;
+      if (Math.abs(dx) > 4 || Math.abs(dy) > 4) moved = true;
+      var x = origLeft + dx;
+      var y = origTop + dy;
+      // Keep on screen
+      x = Math.max(8, Math.min(window.innerWidth - btn.offsetWidth - 8, x));
+      y = Math.max(8, Math.min(window.innerHeight - btn.offsetHeight - 8, y));
+      btn.style.left = x + 'px';
+      btn.style.top = y + 'px';
+      btn.style.right = 'auto';
+      btn.style.bottom = 'auto';
+    });
+    function endDrag(e) {
+      if (!dragging) return;
+      dragging = false;
+      btn.classList.remove('dragging');
+      try { btn.releasePointerCapture(e.pointerId); } catch (err) {}
+    }
+    btn.addEventListener('pointerup', endDrag);
+    btn.addEventListener('pointercancel', endDrag);
+  })();
+
   // Contact form → POST to /api/contact (GitHub CSV lead capture)
   var form = document.getElementById('contactForm');
   if (form) {
