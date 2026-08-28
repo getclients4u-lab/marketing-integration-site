@@ -177,9 +177,12 @@ a:hover { color: var(--ink); }
 .brand { display: inline-flex; align-items: center; gap: 12px; }
 .brand-logo {
   display: block;
-  height: 40px;
+  height: 56px;
   width: auto;
   filter: brightness(1.08);
+}
+@media (max-width: 640px) {
+  .brand-logo { height: 46px; }
 }
 .brand-mark {
   display: inline-flex;
