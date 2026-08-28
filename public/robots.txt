@@ -71,4 +71,4 @@ User-agent: *
 Allow: /
 Disallow: /search
 
-Sitemap: https://www.marketingintegrationllc.com/sitemap.xml
+Sitemap: https://marketing-integration-site.vercel.app/sitemap.xml
