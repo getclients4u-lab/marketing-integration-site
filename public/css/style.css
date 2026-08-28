@@ -228,6 +228,35 @@ a:hover { color: var(--ink); }
   animation: aurora 14s ease-in-out infinite alternate;
   pointer-events: none;
 }
+/* Hero background photo — cinematic dark treatment */
+.hero .hero-photo,
+.page-hero .hero-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url('/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  opacity: .34;
+  filter: saturate(1.05);
+  animation: heroZoom 22s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+@keyframes heroZoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.09); }
+}
+/* Dark gradient scrim over photo for readability */
+.hero .hero-scrim,
+.page-hero .hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(8,8,12,.82) 0%, rgba(8,8,12,.55) 45%, rgba(8,8,12,.92) 100%),
+    radial-gradient(80% 60% at 50% 40%, transparent 0%, rgba(8,8,12,.55) 100%);
+  pointer-events: none;
+}
 @keyframes aurora {
   0% { transform: translate(0,0) scale(1); opacity: .85; }
   50% { transform: translate(-2%, 1.5%) scale(1.06); opacity: 1; }
@@ -264,8 +293,7 @@ a:hover { color: var(--ink); }
   -webkit-mask-image: radial-gradient(75% 85% at 50% 30%, #000 25%, transparent 75%);
   pointer-events: none;
 }
-.hero .container { position: relative; z-index: 2; text-align: center; max-width: 1000px; }
-.hero h1 {
+.hero .container { position: relative; z-index: 2; text-align: center; max-width: 1000px; }.hero h1 {
   font-size: clamp(2.8rem, 7.2vw, 5.6rem);
   line-height: 1.02;
   font-weight: 700;
@@ -323,6 +351,70 @@ a:hover { color: var(--ink); }
   -webkit-text-stroke: 1px var(--ink-2);
 }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ---------- IMAGERY ---------- */
+.img-frame {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.img-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.img-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(200deg, rgba(124,92,255,.14), transparent 40%);
+  pointer-events: none;
+}
+.img-frame-glow { box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 60px rgba(124,92,255,.12); }
+
+/* About image block */
+.about-media {
+  position: relative;
+  display: grid;
+  gap: 18px;
+}
+.about-media .img-frame.main { height: 420px; }
+.about-media .img-frame.small {
+  position: absolute;
+  right: -20px;
+  bottom: -34px;
+  width: 58%;
+  height: 210px;
+  border: 6px solid var(--bg);
+  border-radius: 18px;
+  box-shadow: 0 24px 60px rgba(0,0,0,.55);
+}
+.about-badge {
+  position: absolute;
+  top: -22px;
+  left: -18px;
+  z-index: 3;
+  background: var(--grad);
+  color: #0a0a10;
+  font-family: var(--mono);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(124,92,255,.4);
+}
+
+/* Results visual strip */
+.results-visual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+.results-visual .img-frame { height: 220px; }
+
+/* Contact split image */
+.contact-img { border-radius: 22px; overflow: hidden; border: 1px solid var(--line); margin-bottom: 44px; }
+.contact-img img { display: block; width: 100%; height: 240px; object-fit: cover; }
 
 /* ---------- SECTIONS ---------- */
 section { position: relative; }
@@ -668,14 +760,11 @@ section { position: relative; }
 /* ---------- PAGE HERO (interior) ---------- */
 .page-hero {
   position: relative;
-  background:
-    radial-gradient(45% 55% at 80% 10%, rgba(124,92,255,.22) 0%, transparent 60%),
-    radial-gradient(35% 45% at 10% 85%, rgba(34,211,238,.12) 0%, transparent 55%),
-    var(--bg);
+  overflow: hidden;
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
   padding: 170px 0 110px;
   text-align: center;
-  overflow: hidden;
 }
 .page-hero .container { position: relative; z-index: 2; }
 .page-hero h1 { font-size: clamp(2.4rem, 5.2vw, 4rem); letter-spacing: -.03em; font-weight: 700; line-height: 1.06; margin-bottom: 24px; }
@@ -836,6 +925,9 @@ section { position: relative; }
   .main-nav.open { display: flex; }
   .nav-toggle { display: block; z-index: 1001; position: relative; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 56px; }
+  .about-media { max-width: 520px; }
+  .about-media .img-frame.small { right: 10px; bottom: -26px; }
+  .results-visual { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .section-pad { padding: 90px 0; }
   .hero { padding: 140px 0 50px; }
