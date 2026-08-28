@@ -121,6 +121,10 @@
   }
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -145,94 +149,105 @@
   <main>
     <!-- ===== HERO ===== -->
     <section class="hero" id="front-page">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
       <div class="container">
-        <p class="eyebrow">Stamford, CT · Est. 2005 · SMBs Nationwide</p>
-        <h1>Small &amp; mid-size businesses: <span>beat your bigger competitors</span> with marketing that's measured, not guessed.</h1>
-        <p class="hero-sub">Marketing Integration LLC helps growing companies out-plan, out-position, and out-execute larger rivals — 20+ years of strategy, tactical sales plans, and documented ROI. No vanity metrics. No fluff. Just a plan that works.</p>
-        <div class="hero-cta">
-          <a href="/contact.html" class="btn btn-primary btn-lg">Book Your Free Strategy Call →</a>
-          <a href="tel:+18609262780" class="btn btn-ghost btn-lg">860-926-2780</a>
+        <p class="eyebrow reveal visible"><span class="dot"></span> Stamford, CT · Est. 2005 · SMBs Nationwide</p>
+        <h1 class="reveal visible">Small &amp; mid-size businesses:<br><span class="serif-accent">beat your bigger competitors</span></h1>
+        <p class="hero-sub reveal visible reveal-delay-1">We help growing companies <strong>out-plan, out-position, and out-execute</strong> larger rivals — 20+ years of strategy, tactical sales plans, and documented ROI. No vanity metrics. No fluff. Just a plan that works.</p>
+        <div class="hero-cta reveal visible reveal-delay-2">
+          <a href="/contact.html" class="btn btn-primary btn-lg"><span>Book Your Free Strategy Call</span> <span class="arr">→</span></a>
+          <a href="tel:+18609262780" class="btn btn-glow btn-lg">860-926-2780</a>
         </div>
-        <ul class="hero-trust">
+        <ul class="hero-stats reveal visible reveal-delay-3">
           <li>20+ years in business</li>
-          <li>27% avg. annual client ROI</li>
+          <li>27% avg. annual ROI</li>
           <li>$2.5M/yr contract wins</li>
           <li>Veteran strategists</li>
         </ul>
       </div>
     </section>
 
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Strategy</span><span class="outline">Digital</span><span>Inbound</span><span class="outline">Social Media</span><span>Rewards &amp; Loyalty</span><span class="outline">Market Research</span><span>Brand Positioning</span><span class="outline">Tactical Execution</span>
+        <span>Strategy</span><span class="outline">Digital</span><span>Inbound</span><span class="outline">Social Media</span><span>Rewards &amp; Loyalty</span><span class="outline">Market Research</span><span>Brand Positioning</span><span class="outline">Tactical Execution</span>
+      </div>
+    </div>
+
     <!-- ===== STATS ===== -->
-    <section class="stats" aria-label="Key results">
+    <section class="stats section-pad" aria-label="Key results">
       <div class="container">
         <div class="stats-grid">
-          <div class="stat reveal"><strong>20<em>+</em></strong><span>Years in Business</span></div>
-          <div class="stat reveal"><strong>27<em>%</em></strong><span>Avg. Annual ROI (4 yrs)</span></div>
-          <div class="stat reveal"><strong>$2.5<em>M</em></strong><span>Annual Contract Won</span></div>
-          <div class="stat reveal"><strong>90<em>%</em></strong><span>Client Cost Reduction</span></div>
-          <div class="stat reveal"><strong>100<em>%</em></strong><span>Client Engagement</span></div>
+          <div class="stat reveal"><strong data-count="20" data-suffix="+">0</strong><span>Years in Business</span></div>
+          <div class="stat reveal reveal-delay-1"><strong data-count="27" data-suffix="%">0</strong><span>Avg. Annual ROI (4 yrs)</span></div>
+          <div class="stat reveal reveal-delay-2"><strong data-count="2.5" data-prefix="$" data-suffix="M">0</strong><span>Annual Contract Won</span></div>
+          <div class="stat reveal reveal-delay-3"><strong data-count="90" data-suffix="%">0</strong><span>Client Cost Reduction</span></div>
+          <div class="stat reveal reveal-delay-3"><strong data-count="100" data-suffix="%">0</strong><span>Client Engagement</span></div>
         </div>
       </div>
     </section>
 
-    <!-- ===== SERVICES (editorial list) ===== -->
-    <section class="services section-pad" id="services">
+    <!-- ===== SERVICES (bento grid) ===== -->
+    <section class="services section-pad divider" id="services">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">What We Do</p>
-          <h2>Four integrated disciplines. One measurable plan.</h2>
-          <p>We combine strategy and tactics so every dollar of marketing works harder — built to outmaneuver bigger competitors.</p>
+        <div class="section-head center">
+          <p class="eyebrow reveal"><span class="dot"></span> What We Do</p>
+          <h2 class="reveal">Four disciplines.<br><span class="serif-accent">One measurable plan.</span></h2>
+          <p class="reveal">Strategy and tactics fused together so every marketing dollar works harder — built to outmaneuver bigger competitors.</p>
         </div>
-        <div class="services-list">
-          <article class="service-row reveal">
-            <span class="service-num">01</span>
-            <span class="service-icon">🎯</span>
+        <div class="bento">
+          <article class="bento-tile reveal">
+            <span class="bento-num">01</span>
+            <div class="bento-icon">🎯</div>
             <div>
               <h3>Digital Marketing</h3>
-              <p>Turn digital channels into a growth engine. We plan, prioritize, and execute digital marketing that reaches your exact customer — from search to social to email — with clear metrics on what's working.</p>
+              <p>Turn digital channels into a growth engine. We plan, prioritize, and execute digital marketing that reaches your exact customer — search, social, email — with clear metrics on what's working.</p>
             </div>
-            <a href="/contact.html" class="card-link">Plan my strategy</a>
+            <a href="/contact.html" class="bento-link">Plan my strategy <span class="arr">→</span></a>
           </article>
-          <article class="service-row reveal">
-            <span class="service-num">02</span>
-            <span class="service-icon">🧲</span>
+          <article class="bento-tile reveal reveal-delay-1">
+            <span class="bento-num">02</span>
+            <div class="bento-icon">🧲</div>
             <div>
               <h3>Inbound Marketing</h3>
-              <p>Stop chasing leads. Build the strategy that brings the consumer to your doorstep — with content, positioning, and engagement systems that attract ready-to-buy prospects.</p>
+              <p>Stop chasing leads. Build systems that bring buyers to your doorstep.</p>
             </div>
-            <a href="/contact.html" class="card-link">Attract customers</a>
+            <a href="/contact.html" class="bento-link">Attract customers <span class="arr">→</span></a>
           </article>
-          <article class="service-row reveal">
-            <span class="service-num">03</span>
-            <span class="service-icon">📣</span>
+          <article class="bento-tile reveal reveal-delay-1">
+            <span class="bento-num">03</span>
+            <div class="bento-icon">📣</div>
             <div>
               <h3>Social Media</h3>
-              <p>Exponential growth and visibility for your products and services. We build social strategies that compound — turning followers into advocates and advocates into revenue.</p>
+              <p>Exponential growth and visibility — turning followers into advocates, advocates into revenue.</p>
             </div>
-            <a href="/contact.html" class="card-link">Grow visibility</a>
+            <a href="/contact.html" class="bento-link">Grow visibility <span class="arr">→</span></a>
           </article>
-          <article class="service-row reveal">
-            <span class="service-num">04</span>
-            <span class="service-icon">🏆</span>
+          <article class="bento-tile reveal reveal-delay-2">
+            <span class="bento-num">04</span>
+            <div class="bento-icon">🏆</div>
             <div>
               <h3>Rewards &amp; Loyalty Programs</h3>
-              <p>Your best customers are your cheapest growth. We design reward systems and loyalty programs that keep your target audience engaged and grow your customer base — profitably.</p>
+              <p>Your best customers are your cheapest growth. We design reward systems that keep your audience engaged and grow your customer base — profitably.</p>
             </div>
-            <a href="/contact.html" class="card-link">Keep customers</a>
+            <a href="/contact.html" class="bento-link">Keep customers <span class="arr">→</span></a>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ===== RESULTS (editorial grid) ===== -->
-    <section class="results section-pad section-divider" id="results">
+    <section class="results section-pad" id="results">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Proven Results</p>
-          <h2>Real outcomes for real businesses.</h2>
-          <p>We don't sell campaigns. We sell outcomes. Here's what beating the Goliath looks like in practice.</p>
+        <div class="section-head center">
+          <p class="eyebrow reveal"><span class="dot"></span> Proven Results</p>
+          <h2 class="reveal">Real outcomes.<br><span class="serif-accent">Real businesses.</span></h2>
+          <p class="reveal">We don't sell campaigns. We sell outcomes. Here's what beating the Goliath looks like in practice.</p>
         </div>
-        <div class="results-list">
+        <div class="results-grid">
           <article class="result-item reveal">
             <span class="result-index">CASE 01 — CPG</span>
             <span class="result-tag">Consumer Packaged Goods</span>
@@ -240,14 +255,14 @@
             <p>A targeted consumer promotional campaign delivering product trials directly into target households — generating significant market share gains.</p>
             <p class="result-metric"><strong>27% ROI/year</strong> — average across 4 consecutive years</p>
           </article>
-          <article class="result-item reveal">
+          <article class="result-item reveal reveal-delay-1">
             <span class="result-index">CASE 02 — TECH</span>
             <span class="result-tag">Technology / B2B</span>
             <h3>Computer Enterprise Brand, CA</h3>
             <p>A "friends &amp; professionals" referral strategy for a well-known tech brand — a major shift in rewards methodology inside a promotion-glutted B2B market.</p>
             <p class="result-metric"><strong>New client acquisition</strong> via word-of-mouth at scale</p>
           </article>
-          <article class="result-item reveal">
+          <article class="result-item reveal reveal-delay-2">
             <span class="result-index">CASE 03 — START-UP</span>
             <span class="result-tag">Start-Up</span>
             <h3>"Green" Lubricant Brand, CT</h3>
@@ -261,18 +276,18 @@
             <p>Full marketing turnaround: customer engagement, business development, CRM introduction, and prospect targeting for a fast-growing specialty provider.</p>
             <p class="result-metric"><strong>100% engagement</strong> · <strong>22% of clients</strong> drove <strong>+25% purchases</strong></p>
           </article>
-          <article class="result-item reveal">
+          <article class="result-item reveal reveal-delay-1">
             <span class="result-index">CASE 05 — MANUFACTURING</span>
             <span class="result-tag">Manufacturing</span>
             <h3>Major Manufacturer, VA</h3>
             <p>Solved a high-maintenance, human-intensive internal process with a smarter alternative — then helped win the outsourced contract in a competitive RFP.</p>
             <p class="result-metric"><strong>90% cost reduction</strong> · <strong>$2.5M/year</strong> for 5 years</p>
           </article>
-          <article class="result-item result-cta-item reveal">
+          <article class="result-item result-cta-item reveal reveal-delay-2">
             <span class="result-index">CASE 06 — YOURS</span>
             <h3>Your business could be next.</h3>
             <p>Tell us where you want to go. We'll build the plan to get there — with numbers you can track.</p>
-            <a href="/contact.html" class="btn btn-light">Start the Conversation →</a>
+            <a href="/contact.html" class="btn btn-light">Start the Conversation <span class="arr">→</span></a>
           </article>
         </div>
       </div>
@@ -282,27 +297,27 @@
     <section class="about section-pad" id="about">
       <div class="container about-grid">
         <div class="about-copy">
-          <p class="eyebrow">Who We Are</p>
-          <h2>Veteran strategists who see what others miss.</h2>
-          <p>Marketing Integration is a fast-moving, interactive marketing services group that aggressively helps small to mid-size organizations plan, strategize, and tactically beat their larger competitors.</p>
-          <p>We actively listen. We discuss. We pose suitable outcomes and solutions. Then we execute measurable tactical plans.</p>
-          <blockquote>"We bring the willingness to re-combine, re-articulate, and re-package — to find the 'new' combinations that create your advantage."</blockquote>
-          <div class="about-person">
+          <p class="eyebrow reveal"><span class="dot"></span> Who We Are</p>
+          <h2 class="reveal" style="font-size:clamp(2.1rem,4.6vw,3.6rem);line-height:1.06;letter-spacing:-.03em;margin-bottom:26px;">Veteran strategists who <span class="serif-accent">see what others miss.</span></h2>
+          <p class="reveal">Marketing Integration is a fast-moving, interactive marketing services group that aggressively helps small to mid-size organizations plan, strategize, and tactically beat their larger competitors.</p>
+          <p class="reveal">We actively listen. We discuss. We pose suitable outcomes and solutions. Then we execute measurable tactical plans.</p>
+          <blockquote class="pull-quote reveal">"We bring the willingness to re-combine, re-articulate, and re-package — to find the 'new' combinations that create your advantage."</blockquote>
+          <div class="about-person reveal">
             <strong>Jack Lee</strong>
             <span>Managing Director, Marketing Integration LLC</span>
           </div>
         </div>
         <aside class="about-side">
-          <h3>Industries Served</h3>
+          <h3 class="reveal">Industries Served</h3>
           <ul class="industry-list">
-            <li>Consumer Packaged Goods</li>
-            <li>Technology &amp; Software</li>
-            <li>Healthcare &amp; SaaS</li>
-            <li>Manufacturing</li>
-            <li>Agriculture</li>
-            <li>Eco-Friendly / Green Products</li>
+            <li class="reveal">Consumer Packaged Goods</li>
+            <li class="reveal">Technology &amp; Software</li>
+            <li class="reveal">Healthcare &amp; SaaS</li>
+            <li class="reveal">Manufacturing</li>
+            <li class="reveal">Agriculture</li>
+            <li class="reveal">Eco-Friendly / Green Products</li>
           </ul>
-          <div class="side-card">
+          <div class="side-card reveal">
             <h3>What It Takes — From You</h3>
             <ul>
               <li>Courage to forge a new path</li>
@@ -355,14 +370,14 @@
     <!-- ===== CONTACT CTA ===== -->
     <section class="cta-band" id="contact">
       <div class="container">
-        <p class="eyebrow">Let's Talk</p>
-        <h2>Ready to beat your bigger competitors?</h2>
-        <p>Big insights. Ongoing client engagement. Serious growth for your clients and revenues. Let's talk.</p>
-        <div class="cta-actions">
-          <a href="/contact.html" class="btn btn-light btn-lg">Contact Us Now →</a>
-          <a href="tel:+18609262780" class="btn btn-ghost btn-lg">860-926-2780</a>
+        <p class="eyebrow reveal"><span class="dot"></span> Let's Talk</p>
+        <h2 class="reveal">Ready to <span class="serif-accent">win?</span></h2>
+        <p class="reveal">Big insights. Ongoing client engagement. Serious growth for your clients and revenues. Let's talk.</p>
+        <div class="cta-actions reveal reveal-delay-1">
+          <a href="/contact.html" class="btn btn-primary btn-lg"><span>Contact Us Now</span> <span class="arr">→</span></a>
+          <a href="tel:+18609262780" class="btn btn-glow btn-lg">860-926-2780</a>
         </div>
-        <p class="cta-note">Prefer email? <a href="mailto:jacklee@marketingintegrationllc.com">jacklee@marketingintegrationllc.com</a></p>
+        <p class="cta-note reveal reveal-delay-2">Prefer email? <a href="mailto:jacklee@marketingintegrationllc.com">jacklee@marketingintegrationllc.com</a></p>
       </div>
     </section>
   </main>

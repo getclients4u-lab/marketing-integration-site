@@ -24,6 +24,10 @@
   }
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -46,18 +50,20 @@
 
   <main>
     <section class="page-hero">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
       <div class="container">
-        <p class="eyebrow">Contact Us</p>
-        <h1>Let's build your plan to beat the Goliaths.</h1>
-        <p class="hero-sub">Big insights. Ongoing client engagement. Serious growth for your clients and revenues. Tell us where you want to go — we'll bring the strategy to get there.</p>
+        <p class="eyebrow reveal visible"><span class="dot"></span> Contact Us</p>
+        <h1 class="reveal visible">Let's build your plan to <span class="serif-accent">beat the Goliaths.</span></h1>
+        <p class="hero-sub reveal visible reveal-delay-1">Big insights. Ongoing client engagement. Serious growth for your clients and revenues. Tell us where you want to go — we'll bring the strategy to get there.</p>
       </div>
     </section>
 
     <section class="contact-section section-pad">
       <div class="container contact-grid">
-        <div class="contact-info">
-          <h2>Talk directly with the Managing Director.</h2>
-          <p>No account managers. No hand-offs. When you contact Marketing Integration LLC, you speak with Jack Lee — the strategist who will work on your business.</p>
+          <div class="contact-info">
+          <h2 class="reveal">Talk directly with the <span class="serif-accent">Managing Director.</span></h2>
+          <p class="reveal">No account managers. No hand-offs. When you contact Marketing Integration LLC, you speak with Jack Lee — the strategist who will work on your business.</p>
 
           <div class="contact-method">
             <span class="contact-icon">📞</span>
@@ -133,7 +139,7 @@
               <label for="message">Tell us about your goals *</label>
               <textarea id="message" name="message" rows="5" required placeholder="What are you trying to achieve? Who are you competing against?"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Send My Request →</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-block"><span>Send My Request</span> <span class="arr">→</span></button>
             <p class="form-note">We reply within 1 business day. Your information stays private.</p>
           </form>
           <div id="formSuccess" class="form-success" hidden>
