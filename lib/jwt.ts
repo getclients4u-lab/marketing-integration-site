@@ -38,7 +38,9 @@ export function verify(token: string): { ok: boolean; payload?: any; error?: str
 }
 
 export function checkPassword(password: string): boolean {
-  return typeof password === 'string' && crypto.timingSafeEqual(
-    Buffer.from(password), Buffer.from(ADMIN_PASSWORD)
-  );
+  if (typeof password !== 'string') return false;
+  const a = Buffer.from(password);
+  const b = Buffer.from(ADMIN_PASSWORD);
+  if (a.length !== b.length) return false; // timingSafeEqual throws on length mismatch
+  return crypto.timingSafeEqual(a, b);
 }
