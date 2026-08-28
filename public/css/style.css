@@ -175,6 +175,12 @@ a:hover { color: var(--ink); }
   gap: 24px;
 }
 .brand { display: inline-flex; align-items: center; gap: 12px; }
+.brand-logo {
+  display: block;
+  height: 40px;
+  width: auto;
+  filter: brightness(1.08);
+}
 .brand-mark {
   display: inline-flex;
   align-items: center;
@@ -234,11 +240,11 @@ a:hover { color: var(--ink); }
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-image: url('/images/hero-bg.jpg');
+  background-image: url('/images/oldsite-hero.jpg');
   background-size: cover;
-  background-position: center 30%;
-  opacity: .34;
-  filter: saturate(1.05);
+  background-position: center 32%;
+  opacity: .42;
+  filter: saturate(1.08) contrast(1.02);
   animation: heroZoom 22s ease-in-out infinite alternate;
   pointer-events: none;
 }
