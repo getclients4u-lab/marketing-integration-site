@@ -1098,3 +1098,6 @@ section { position: relative; }
 .bento-tile:nth-child(1) .cap-list, .bento-tile:nth-child(4) .cap-list { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 1024px) { .bento-tile:nth-child(1) .cap-list, .bento-tile:nth-child(4) .cap-list { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .cap-list, .bento-tile:nth-child(1) .cap-list, .bento-tile:nth-child(4) .cap-list { grid-template-columns: 1fr; } }
+
+/* Tagline emphasis in service tiles */
+.bento-tile .tagline { display: block; color: var(--violet); font-style: italic; font-family: var(--serif); font-size: 1.05rem; margin-bottom: 8px; }
