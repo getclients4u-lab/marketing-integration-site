@@ -22,10 +22,8 @@ export function generateLocalBusinessSchema(name: string = SITE_NAME) {
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '860 E Main St',
       addressLocality: 'Stamford',
       addressRegion: 'CT',
-      postalCode: '06901',
       addressCountry: 'US',
     },
     geo: { '@type': 'GeoCoordinates', latitude: 41.05343, longitude: -73.538734 },
