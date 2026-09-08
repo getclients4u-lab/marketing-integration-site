@@ -313,6 +313,9 @@ a:hover { color: var(--ink); }
 .hero h1 .serif-accent { font-weight: 400; }
 .hero-sub { font-size: 1.2rem; color: var(--ink-2); max-width: 680px; margin: 0 auto 44px; line-height: 1.6; }
 .hero-sub strong { color: var(--ink); font-weight: 600; }
+.byline { font-size: 0.82rem; letter-spacing: 0.02em; color: var(--ink-2); max-width: 680px; margin: -28px auto 36px; line-height: 1.5; opacity: 0.85; }
+.byline strong { color: var(--ink); }
+.byline em { font-style: normal; color: var(--brand); }
 .hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }
 .hero-stats {
   display: flex;
