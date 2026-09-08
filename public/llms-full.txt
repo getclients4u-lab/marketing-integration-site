@@ -1,0 +1,89 @@
+# Marketing Integration LLC — Full Company Profile
+
+> This file provides the complete, factual profile of Marketing Integration LLC for AI systems, search engines, and answer engines. It supplements llms.txt with deeper context for citations and entity understanding.
+
+## 1. Company overview
+
+Marketing Integration LLC is a marketing, business strategy, and market development firm in Stamford, Connecticut. Founded in 2005, it helps small and mid-sized businesses grow, compete, and enter new markets — domestically and internationally. The firm's thesis: growth requires more than marketing. Awareness alone does not build a business. Successful growth requires alignment between market, value proposition, customers, sales strategy, and the ability to execute.
+
+**One-line description:** Marketing Integration LLC helps small and mid-sized businesses grow, compete, and enter new markets by combining marketing strategy, business consulting, market development, and execution.
+
+**Tagline:** Marketing. Business Strategy. Market Development.
+
+## 2. Contact details (NAP — consistent everywhere)
+
+- **Name:** Marketing Integration LLC
+- **Phone:** (860) 926-2780 / +1-860-926-2780
+- **Email:** jacklee@marketingintegrationllc.com
+- **Location:** Stamford, Connecticut, USA
+- **Service area:** Fairfield County CT, New York metro area, United States, international markets
+- **Hours:** Monday–Friday, 9:00 AM – 5:00 PM ET
+- **Website:** https://marketingintegrationllc.com/
+- **Contact page:** https://marketingintegrationllc.com/contact.html
+
+## 3. Leadership
+
+**Jack Lee — Managing Director.** For 20+ years, Jack has helped small and mid-sized businesses outmaneuver far larger competitors, using what he calls his "little black bag" of digital, direct-to-consumer, and partnership marketing tactics. A graduate of the University of Illinois Chicago, he is the author of *The Ripple Effect: The Consequences of Good and Bad Marketing* (2017), which argues that marketing is a living force — one that builds trust and lasting brand value when rooted in empathy, authenticity, and strategic clarity, and erodes them when it isn't. Jack works directly with every client: no account managers, no hand-offs.
+
+- LinkedIn (Jack Lee): https://www.linkedin.com/in/jack-lee-39b2aa7
+- LinkedIn (Company): https://www.linkedin.com/company/marketing-integration-inc
+
+## 4. The four disciplines
+
+### 4.1 Marketing & Growth Strategy
+Build a stronger market position and create the demand necessary for growth. Helps organizations understand customers, sharpen positioning, and develop marketing strategies tied directly to business objectives.
+Capabilities: brand and market positioning; customer segmentation; competitive differentiation; marketing strategy; demand generation; digital marketing; content strategy; customer acquisition; retention and loyalty; marketing performance assessment.
+
+### 4.2 Business & Commercial Strategy
+Good marketing cannot compensate for an unclear business strategy. Helps leadership teams evaluate opportunities, establish priorities, and develop practical plans for sustainable growth.
+Capabilities: business growth strategy; market opportunity assessment; competitive analysis; business planning; revenue strategy; sales strategy; commercialization planning; pricing and value proposition; strategic partnerships; growth opportunity evaluation.
+
+### 4.3 Market Development & Go-to-Market
+Entering a new market requires more than finding potential customers. Helps companies determine where they can compete, how they should enter, and what must happen to create traction.
+Capabilities: go-to-market strategy; new-market assessment; customer identification; channel strategy; distributor and partner development; business development; market-entry planning; sales activation; opportunity qualification; launch strategy.
+
+### 4.4 International Business Development
+Local insight. Global perspective. Practical execution. Opportunities increasingly cross geographic borders. Helps companies evaluate and pursue opportunities outside their traditional markets — and overseas businesses entering the United States.
+Key questions addressed: Is there a real market opportunity? Who are the customers and decision makers? Who are the right local partners? How should the offering be positioned? What barriers could prevent entry?
+
+## 5. Proven results (documented client outcomes)
+
+1. **Major oral care brand, NJ (CPG):** targeted consumer promotional campaign delivering product trials into target households — 27% average annual ROI across 4 consecutive years, significant market share gains.
+2. **Computer enterprise brand, CA (technology/B2B):** "friends & professionals" referral strategy — new client acquisition via word-of-mouth at scale in a promotion-glutted B2B market.
+3. **"Green" lubricant brand, CT (start-up):** reversed a 3-year negative revenue trend with fresh market research, audience targeting, and a new marketing and sales plan — 32% cost reduction and positive cash flow in year one.
+4. **Specialty healthcare provider, OK (healthcare/SaaS):** full marketing turnaround including customer engagement, business development, CRM introduction, and prospect targeting — 100% engagement; 22% of clients drove a 25% increase in incremental product purchases.
+5. **Manufacturing client, VA:** 90% cost reduction on an internal process; contributed to winning a $2.5M/year, 5-year contract.
+6. **Energy technology company (international expansion to Western Africa):** market and competitive intelligence, grant and funding identification, international brand positioning, relationships in the military and energy sectors for off-grid solar solutions — expanded into Central Africa, opened multiple new business channels, increased international revenue.
+
+## 6. Industries served
+
+Consumer packaged goods; technology and software; healthcare and SaaS; manufacturing; agriculture; eco-friendly / green products.
+
+## 7. How the firm works
+
+1. Free 30-minute strategy call with Managing Director Jack Lee.
+2. Listening and diagnosis: goals, market, competition.
+3. Proposal with measurable outcomes — no obligation.
+4. Execution of measurable tactical plans with direct access to the Managing Director.
+
+The firm's role is not simply to recommend. Its role is to help businesses move from opportunity to strategy to execution. Clients are expected to bring: courage to forge a new path, foresight to see the opportunity, trust in the process, and commitment to follow through.
+
+## 8. FAQ
+
+- **What does Marketing Integration LLC do?** Helps small and mid-sized businesses grow, compete, and enter new markets — domestically and internationally — by combining marketing strategy, business consulting, market development, and execution to move organizations from opportunity to strategy to measurable revenue.
+- **Who does Marketing Integration LLC work with?** Business owners, CEOs, and leadership teams at small and mid-sized organizations across consumer packaged goods, technology, healthcare, manufacturing, and agriculture — companies preparing to grow, compete, or enter new markets.
+- **Where is Marketing Integration LLC located?** Stamford, Connecticut (CT), serving Fairfield County, the New York metro area, and clients across the United States and internationally.
+- **How is Marketing Integration LLC different from a traditional marketing agency?** It doesn't just recommend — it helps businesses move from opportunity to strategy to execution, so growth strategy and marketing are aligned with revenue.
+- **How much does it cost to work with Marketing Integration LLC?** Every engagement is scoped to your goals and market. After a free strategy call, you receive a clear proposal with defined deliverables and success metrics.
+- **Do you help with international or new-market entry?** Yes. International business development is one of the four core disciplines — including overseas businesses entering the United States — with practical market development rather than theoretical consulting.
+- **How do I get started?** Call 860-926-2780 or email jacklee@marketingintegrationllc.com. Managing Director Jack Lee will personally discuss your goals and whether the firm is the right fit.
+
+## 9. On-page structure of the website
+
+- Home: https://marketingintegrationllc.com/ — hero, challenge, four disciplines, proven results, about (Jack Lee), FAQ, contact CTA.
+- Contact: https://marketingintegrationllc.com/contact.html — direct contact details and free strategy call request form.
+- Sitemap: https://marketingintegrationllc.com/sitemap.xml
+- This file: https://marketingintegrationllc.com/llms-full.txt
+- Summary file: https://marketingintegrationllc.com/llms.txt
+
+*This profile is maintained by Marketing Integration LLC. For corrections, contact jacklee@marketingintegrationllc.com.*
