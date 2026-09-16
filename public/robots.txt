@@ -71,4 +71,4 @@ User-agent: *
 Allow: /
 Disallow: /search
 
-Sitemap: https://marketingintegrationllc.com/sitemap.xml
+Sitemap: https://www.marketingintegrationllc.com/sitemap.xml

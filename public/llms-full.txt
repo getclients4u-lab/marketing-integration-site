@@ -18,8 +18,8 @@ Marketing Integration LLC is a marketing, business strategy, and market developm
 - **Location:** Stamford, Connecticut, USA
 - **Service area:** Fairfield County CT, New York metro area, United States, international markets
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM ET
-- **Website:** https://marketingintegrationllc.com/
-- **Contact page:** https://marketingintegrationllc.com/contact.html
+- **Website:** https://www.marketingintegrationllc.com/
+- **Contact page:** https://www.marketingintegrationllc.com/contact.html
 
 ## 3. Leadership
 
@@ -80,10 +80,10 @@ The firm's role is not simply to recommend. Its role is to help businesses move 
 
 ## 9. On-page structure of the website
 
-- Home: https://marketingintegrationllc.com/ — hero, challenge, four disciplines, proven results, about (Jack Lee), FAQ, contact CTA.
-- Contact: https://marketingintegrationllc.com/contact.html — direct contact details and free strategy call request form.
-- Sitemap: https://marketingintegrationllc.com/sitemap.xml
-- This file: https://marketingintegrationllc.com/llms-full.txt
-- Summary file: https://marketingintegrationllc.com/llms.txt
+- Home: https://www.marketingintegrationllc.com/ — hero, challenge, four disciplines, proven results, about (Jack Lee), FAQ, contact CTA.
+- Contact: https://www.marketingintegrationllc.com/contact.html — direct contact details and free strategy call request form.
+- Sitemap: https://www.marketingintegrationllc.com/sitemap.xml
+- This file: https://www.marketingintegrationllc.com/llms-full.txt
+- Summary file: https://www.marketingintegrationllc.com/llms.txt
 
 *This profile is maintained by Marketing Integration LLC. For corrections, contact jacklee@marketingintegrationllc.com.*
