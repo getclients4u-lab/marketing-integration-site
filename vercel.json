@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "marketingintegrationllc.com"
+        }
+      ],
+      "destination": "https://www.marketingintegrationllc.com/:path*",
+      "permanent": true
+    }
+  ]
+}
