@@ -2,13 +2,6 @@
 const nextConfig = {
   async redirects() {
     return [
-      // Consolidate apex -> www (canonical host)
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'marketingintegrationllc.com' }],
-        destination: 'https://www.marketingintegrationllc.com/:path*',
-        permanent: true,
-      },
       // Legacy Squarespace-era URLs -> preserve inbound link equity
       { source: '/digital-marketing.html', destination: '/', permanent: true },
       { source: '/inbound-marketing.html', destination: '/', permanent: true },
