@@ -1,14 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "marketingintegrationllc.com"
         }
       ],
-      "destination": "https://www.marketingintegrationllc.com/:path*",
+      "destination": "https://www.marketingintegrationllc.com/$1",
       "statusCode": 301
     }
   ]
